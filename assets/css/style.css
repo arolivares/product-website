@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   background: #fff;
-  color: #666666;
+  color: #1b1919;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -24,7 +24,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #03c5ec;
+  color: #0b0c0c;
   outline: none;
   text-decoration: none;
 }
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Racing Sans One", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -55,7 +55,7 @@ h6 {
   width: 100%;
   height: 100%;
   overflow: visible;
-  background: #fff url("../img/preloader.svg") no-repeat center center;
+  background: #0e0d0d url("../img/preloader.svg") no-repeat center center;
 }
 
 /*--------------------------------------------------------------
@@ -98,7 +98,7 @@ h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center;
+  background: url(../img/Screenshot\ 2024-05-29\ 090929.png) top center;
   background-size: cover;
 }
 
@@ -181,9 +181,9 @@ h6 {
 }
 
 #hero .btn-get-started {
-  background: #03C4EB;
-  border: 2px solid #03C4EB;
-  color: #fff;
+  background: #fcf4fb;
+  border: 2px solid #ffffff;
+  color: #141212;
 }
 
 #hero .btn-get-started:hover {
@@ -206,7 +206,7 @@ h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #0d0d0d;
+  background: #181717;
   transition: all 0.5s;
   z-index: 997;
   height: 70px;
@@ -296,7 +296,7 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #03C4EB;
+  color: #d6d6d6;
 }
 
 .navbar .dropdown ul {
@@ -546,9 +546,10 @@ section {
 /* Services Section
 --------------------------------*/
 #services {
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)), url("../img/services-bg.jpg") fixed center center;
+  background: linear-gradient(rgba(31, 30, 30, 0.9), rgba(194, 209, 207, 0.9)), url("../img/Screenshot\ 2024-05-29\ 094125.png") fixed center center;
   background-size: cover;
   padding: 80px 0 60px 0;
+ 
 }
 
 #services .service-item {
